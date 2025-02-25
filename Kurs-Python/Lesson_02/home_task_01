@@ -1,0 +1,5 @@
+print("Конфета стоит 3 у.е. У вас есть 27 y.e Сколько конфет вы можете купить?")
+candy_price = 3
+money = 27
+candies = money // candy_price
+print("Вы можете купить" candies, "конфет.")
